@@ -9,7 +9,7 @@ test_script:
 
 branches:
   only:
-    - master
+    - development
 
 cache:
   - C:\Users\appveyor\.gradle
