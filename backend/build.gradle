@@ -73,4 +73,7 @@ task buildDocker(type: Docker) {
   exposePort(8080)
 }
 
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 buildDocker.dependsOn(build)
