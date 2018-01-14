@@ -1,3 +1,8 @@
 language: groovy
 jdk:
   - oraclejdk8
+deploy:
+  provider: heroku
+  api_key: 5b7b65fc-70f5-4666-82ee-4d18f007275d
+  app: justas
+  on: development
