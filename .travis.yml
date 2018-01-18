@@ -1,8 +1,11 @@
 language: groovy
 jdk:
-  - oraclejdk8
+- oraclejdk8
 deploy:
   provider: heroku
-  api_key: 5b7b65fc-70f5-4666-82ee-4d18f007275d
+  api_key:
+    secure: lPeqQszfCzMI8P1nSp1uB/R6dtMmhiv4tcs9zmFYJ+3jm8P5v1phzoM87F1AuyIZQI2t9ze3r8PsU76EGHzRjkafcO5HBSANtaNA7oGsRyvi7Hme3hm31wtEM/ISp9ve1PvaVlEQAsW4BtmsYPwWxX77P/Z5QZ7ujuwMd6W6cEQ8o2iDKOb/UY9K7tqbbwVDFt3tqg0oIPHlE7aEHHQROOCR9fU5GYHiVGqW94+YenOGIc5VgtNmORk4QE8oIp3/3YaoChFmw4XUBOEpog2f5U7GjMeGrQCdd0vnSR3mAxpujLYgP85x0t6bCSIbjGoeR47Gjq1oJsDJ+0XebNj48kkO0p21N3SeBoZ/1pc5ZtPza+CMUFPBtedqvGwLpJdavYY+IpAO/8uZiyEeliZW6bQu89HQ5uDaRaCTKXw843ehxDDCuH5Aub1S/J/rapOgmnugOZmFNfjkTObUghFMSrGmaUVLWzRwW63nRrub9uZZL4cI8yokhjdDpdPkQtqsgaGcOq66Q6fK0eKJh9aA6fM7mvNuw6h5/pF01hwfhA3QG+yo07JcI5tysCp4cE0XKScnvFpwxLsNGQllz+DF6Yxa+RsxwLBjPe8fOiX1Okk6a/ckVtoBnGTi/z22Jb/8OB4KrUCefBZ1X0Rrl8RyqQAtpLCBQVNLMOfYA69tt0M=
   app: justas
-  on: development
+  on:
+    repo: JustasMi/react
+    branch: development

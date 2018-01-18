@@ -1,0 +1,1 @@
+java -jar -Dspring.profiles.active=production backend/build/libs/boot-react-0.0.1-SNAPSHOT.jar
